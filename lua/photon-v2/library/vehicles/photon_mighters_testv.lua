@@ -7,7 +7,7 @@ VEHICLE.Category 	= "Photon 2: Mighters"
 VEHICLE.Author		= "SuperMighty, Rinnothy Hoshizoria"
 
 VEHICLE.SubMaterials = {
-	[21] = "mighters/liveries/unmarked_edge",
+	[21] = "mighters/liveries/unmarked_edge", -- vehicle skin with an alpha channel that removes the mirrors and rear parts for the outer edges
 	[22] = "mighters/mesh/red_glass",
 	[0] = "mighters/mesh/ext_misc_int",
 }
