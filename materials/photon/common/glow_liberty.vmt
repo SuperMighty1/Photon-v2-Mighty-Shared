@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "photon/common/glow_liberty"
+	"$translucent" "1"
+	"$nocull" "0"
+	"$additive" 0
+	"$alpha" 100
+}
+
+

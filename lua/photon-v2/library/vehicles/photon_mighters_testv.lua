@@ -170,7 +170,7 @@ VEHICLE.Equipment = {
 						Scale = 0.95,
 						FollowBone = "trunk",
 						SubMaterials = {
-							[0] = "mighters/liveries/kitsune_plate",
+							[0] = "mighters/liveries/rin_plate",
 						},
 					},
 					{
@@ -180,7 +180,7 @@ VEHICLE.Equipment = {
 						Position = Vector( 0, 123.6, 22.12 ),
 						Angles = Angle( 2, 90, 0 ),
                         SubMaterials = {
-							[0] = "mighters/liveries/kitsune_plate",
+							[0] = "mighters/liveries/rin_plate",
 						},
 					},
 				}
