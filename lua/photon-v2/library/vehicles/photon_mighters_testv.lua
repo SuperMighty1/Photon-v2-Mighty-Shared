@@ -589,6 +589,97 @@ VEHICLE.Equipment = {
 			  }
 		   },
 		   {
+			Option = "Civ Wheel 2",
+			Props = {
+			  {
+			  Model = "models/supermighty/mesh/wheel/tahoe_wheel3.mdl",
+			  Position = Vector( 0, 0, 0 ),
+			  Angles = Angle( 0, 0, 0 ),
+			  Scale = 1,
+			  Bones = {
+				  ["rim"] = { 
+					  Position = Vector( 0, 0, 0 ),
+					  Angles = Angle( 0, 0, 0 ),
+					  Scale = 1,
+					  Follow = { Attachment = "wheel_fl" }
+				  },
+			  }
+			  },
+			  {
+				  Model = "models/supermighty/mesh/wheel/tahoe_wheel3.mdl",
+				  Position = Vector( 0, 0, 0 ),
+				  Angles = Angle( 0, 0, 0 ),
+				  Scale = 1,
+				  Bones = {
+					  ["rim"] = { 
+						  Position = Vector( 0, 0, 0 ),
+						  Angles = Angle( 0, 0, 0 ),
+						  Scale = 1,
+						  Follow = { Attachment = "wheel_fr" }
+					  },
+				  }
+			  },
+			  {
+				  Model = "models/supermighty/mesh/wheel/tahoe_wheel3.mdl",
+				  Position = Vector( 0, 0, 0 ),
+				  Angles = Angle( 0, 0, 0 ),
+				  Scale = 1,
+				  Bones = {
+					  ["rim"] = { 
+						  Position = Vector( 0, 0, 0 ),
+						  Angles = Angle( 0, 0, 0 ),
+						  Scale = 1,
+						  Follow = { Attachment = "wheel_rr" }
+					  },
+				  }
+			  },
+			  {
+				  Model = "models/supermighty/mesh/wheel/tahoe_wheel3.mdl",
+				  Position = Vector( 0, 0, 0 ),
+				  Angles = Angle( 0, 0, 0 ),
+				  Scale = 1,
+				  Bones = {
+					  ["rim"] = { 
+						  Position = Vector( 0, 0, 0 ),
+						  Angles = Angle( 0, 0, 0 ),
+						  Scale = 1,
+						  Follow = { Attachment = "wheel_rl" }
+					  },
+				  }
+			  },
+			},
+			Bones = {
+			   {
+				  Bone = "fl_wheel",
+				  Position = Vector(-1.75, 0, 0),
+				  Angles = Angle(0, 0, 0),
+				  -- Makes the front-left wheel 2x normal size
+				  Scale = 0
+			   },
+			   {
+				  Bone = "fr_wheel",
+				  Position = Vector(-1.75, 0, 0),
+				  Angles = Angle(0, 0, 0),
+				  -- Makes the front-left wheel 2x normal size
+				  Scale = 0
+			   },
+			   {
+				  Bone = "br_wheel",
+				  Position = Vector(-1.75, 0, 0),
+				  Angles = Angle(0, 0, 0),
+				  -- Makes the front-left wheel 2x normal size
+				  Scale = 0
+			   },
+			   {
+				  Bone = "bl_wheel",
+				  Position = Vector(-1.75, 0, 0),
+				  Angles = Angle(0, 0, 0),
+				  -- Makes the front-left wheel 2x normal size
+				  Scale = 0
+			   },
+			}
+		 },
+		   {
 			Option = "None",
 			Props = {
 			},
