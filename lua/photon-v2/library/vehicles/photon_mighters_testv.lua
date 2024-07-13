@@ -868,28 +868,28 @@ VEHICLE.Equipment = {
 			Bones = {
 				{
 				   Bone = "fl_wheel",
-				   Position = Vector(-1.75, 0, 0),
+				   Position = Vector(-0, 0, 0),
 				   Angles = Angle(0, 0, 0),
 				   -- Makes the front-left wheel 2x normal size
 				   Scale = 1
 				},
 				{
 				   Bone = "fr_wheel",
-				   Position = Vector(-1.75, 0, 0),
+				   Position = Vector(-0, 0, 0),
 				   Angles = Angle(0, 0, 0),
 				   -- Makes the front-left wheel 2x normal size
 				   Scale = 1
 				},
 				{
 				   Bone = "br_wheel",
-				   Position = Vector(-1.75, 0, 0),
+				   Position = Vector(0, 0, 0),
 				   Angles = Angle(0, 0, 0),
 				   -- Makes the front-left wheel 2x normal size
 				   Scale = 1
 				},
 				{
 				   Bone = "bl_wheel",
-				   Position = Vector(-1.75, 0, 0),
+				   Position = Vector(0, 0, 0),
 				   Angles = Angle(0, 0, 0),
 				   -- Makes the front-left wheel 2x normal size
 				   Scale = 1
