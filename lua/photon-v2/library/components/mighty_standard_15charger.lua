@@ -64,6 +64,12 @@ COMPONENT.ElementStates = {
             IntensityLoss = 60,
 			IntensityTransitions = true,
 		},
+		["R"] = {
+            BloomColor = PhotonColor( 255, 0, 0 ):Blend( red ):GetBlendColor(),
+		    DrawColor = PhotonColor( 255, 92, 0 ):Blend( red ):GetBlendColor(),
+            Inherit = "R",
+            Intensity = 1,
+        },
         ["~R"] = {
             BloomColor = PhotonColor( 255, 60, 0 ):Blend( red ):GetBlendColor(),
 		    DrawColor = PhotonColor( 255, 60, 0 ):Blend( red ):GetBlendColor(),
